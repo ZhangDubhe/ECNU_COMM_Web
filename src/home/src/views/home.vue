@@ -12,13 +12,16 @@
     <AppFooter/>
   </div>
 </template>
+
 <script>
-import {Header as AppHeader, Footer as AppFooter} from '../components/'
+import { Header as AppHeader} from '../components/Header'
+import { Footer as AppFooter } from '../components/Footer'
 
 export default {
   name: 'Home',
   components: {
-    AppHeader
+    AppHeader,
+    AppFooter
   }
 }
 </script>

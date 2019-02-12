@@ -1,13 +1,10 @@
 <template>
-  <div class="page-footer">
-    <footer></footer>
-  </div>
+  <footer class="app-footer">
+    <div class="footer-wrapper"></div>
+  </footer>
 </template>
 <script>
 export default {
-  name: 'footer',
-  props: {
-    msg: String
-  }
+  name: 'footer'
 }
 </script>
